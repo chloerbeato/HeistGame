@@ -11,6 +11,13 @@ public class LoseMenu : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void Update()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+    }
+
     public void QuitGame()
     {
         Debug.Log("Quit!");

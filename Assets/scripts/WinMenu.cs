@@ -11,6 +11,13 @@ public class WinMenu : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void Update()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+    }
+
     public void QuitGame()
     {
         Debug.Log("Quit!");
