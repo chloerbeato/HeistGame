@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3559026567350294458}
   - component: {fileID: 489740462896748575}
   - component: {fileID: 2391164092968103125}
+  - component: {fileID: 2202006167930399690}
   m_Layer: 0
   m_Name: paintingFrame (1) 1
   m_TagString: Untagged
@@ -83,3 +84,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2202006167930399690
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4192819792172272896}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 79.04004, y: 58.15132, z: 4.2740726}
+  m_Center: {x: 0, y: 0, z: 0}

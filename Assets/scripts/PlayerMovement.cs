@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -99,6 +100,7 @@ public class PlayerMovement : MonoBehaviour
                 Debug.Log("Game over"); // display game over message
                 mainMusicSource.Stop(); // stop the main music
                 mainMusicSource.PlayOneShot(loseSound); // play the lose sound effect
+                SceneManager.LoadScene(3);
             }
         }
         else if (other.gameObject.CompareTag("Projectile")) // check if collided with Projectile
@@ -120,7 +122,8 @@ public class PlayerMovement : MonoBehaviour
          Debug.Log("You win!"); // display win message
         mainMusicSource.Stop(); // stop the main music
         mainMusicSource.PlayOneShot(winSound); // play the win sound effect
-        Time.timeScale = 0f; // pause time
+       
+        SceneManager.LoadScene(2);
     }
 
     void FireProjectile()

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4019629193139484527}
   - component: {fileID: 29076452117936330}
   - component: {fileID: 2847325723511852032}
+  - component: {fileID: 1800156614201893704}
   m_Layer: 0
   m_Name: Locker
   m_TagString: Untagged
@@ -26,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4360407860810493397}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -74.91201, y: 1.8985, z: -88.961}
-  m_LocalScale: {x: 0.016217407, y: 0.016217407, z: 0.016217407}
+  m_LocalPosition: {x: -74.91201, y: 3, z: -88.961}
+  m_LocalScale: {x: 0.021760516, y: 0.035392575, z: 0.028185854}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +84,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1800156614201893704
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4360407860810493397}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 93.01319, y: 186.82454, z: 44.61955}
+  m_Center: {x: 0, y: 0, z: 0}

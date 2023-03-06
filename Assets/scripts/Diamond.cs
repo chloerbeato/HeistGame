@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Diamond : MonoBehaviour
 {
@@ -43,6 +44,7 @@ public class Diamond : MonoBehaviour
                 hasWon = true;
                 audioSource.clip = loseMusicClip; // set the audio source clip to the lose music
                 audioSource.Play(); // play the lose music
+                SceneManager.LoadScene(3);
             }
             // Add rotation to the diamond
             transform.Rotate(Vector3.up * rotateSpeed * Time.deltaTime);
